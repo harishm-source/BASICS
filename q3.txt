@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+// Function to calculate the square of a number
+int calculateSquare(int num) {
+    return num * num;
+}
+
+int main() {
+    int number, squareResult;
+
+    // Prompt the user for input
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // Call the function to get the square
+    squareResult = calculateSquare(number);
+
+    // Display the result
+    printf("The square of %d is %d.\n", number, squareResult);
+
+    return 0;
+}

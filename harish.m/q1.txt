@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int number1=20;
+    int number2=20;
+    int number3=20;
+    int square =number1+number2+number3/3;
+    printf("%d",square);
+    return 0;
+}
